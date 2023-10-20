@@ -4,6 +4,7 @@ const app = express()
 const path = require('node:path')
 
 const mainRouter = require('./router/mainRouter')
+const mainRouterLogin = require('./router/mainRouterLogin')
 
 
 //Middlewares
@@ -20,3 +21,5 @@ app.listen(PORT , console.log(`El servidos esta corriento http://localhost:${POR
 
 
 app.use('/' , mainRouter)
+app.use('/admin' , mainRouterLogin)
+

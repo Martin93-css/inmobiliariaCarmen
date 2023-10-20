@@ -14,6 +14,9 @@ const controller = {
     },
     terrenos: (req , res) => {
         res.render('terrenos')
+    },  
+    login: (req , res) => {
+        res.render('login')
     },
 }
 
