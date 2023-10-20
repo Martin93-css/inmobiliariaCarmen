@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<%-include ("./partials/head", {cssSheets: "ventas", title: "Alquileres"}) %>
+ <!-- ************la ruta " cssSheets: "ventas" se repite  porque es el mismo formato de css en ambas vistas********* -->
+
+<body>
+  <!-- Header -->
+  <header>
+    <%- include('./partials/navBar') %>
+   
+
+
+  </header>
+  <!-- Main -->
+  <main>
+    <div class=" text-center encabezado">
+        <p>40 resultados de búsqueda</p>
+        <h2 class=" text-center titulo-encabezado">PROPIEDADES EN ALQUILER</h2>
+
+    </div>
+    <section class="contenedor-main container ">
+      <div class="row">
+    
+       
+      <div class="filter col-sm-12 col-md-6 col-lg-2">
+            <div class=""></div>
+            <div class="">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button">Caracteristicas</button>
+                        <div class="accordion-content">
+                            <a href="">1 Dormitorio</a><br>
+                            <a href="">2 Dormitorio</a><br>
+                            <a href="">3 Dormitorio</a><br>
+                            <a href="">4 Dormitorio</a><br>
+                            <a href="">Jardin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article class="col-sm-12 col-md-6 col-lg-10">
+            <div class="container text-center">
+               
+                  <div class="row d-flex align-items-center">
+                    <!-- House -->
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="house">
+                        <img class="img-house-sold" src="/imgs/imagenes/imagen-1.png" alt="">
+                        <div class="mid d-flex">
+                          <p class="data-1">180m<sup>2</sup><i class="fa-solid fa-house"></i></p>
+                          <p class="data-2">2<i class="fa-solid fa-bed"></i></p>
+                          </div>
+                        <p class="text-house">Casa en venta en Florida Mitre/este, Florida</p>
+                        <p class="text-house"><b>Hipólito Yrigoyen al 2900</b></p>
+                      </div>
+                    </div>
+                    <!-- House -->
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="house">
+                        <img class="img-house-sold" src="/imgs/imagenes/imagen-1.png" alt="">
+                        <div class="mid d-flex">
+                          <p class="data-1">180m<sup>2</sup><i class="fa-solid fa-house"></i></p>
+                          <p class="data-2">2<i class="fa-solid fa-bed"></i></p>
+                          </div>
+                        <p class="text-house">Casa en venta en Florida Mitre/este, Florida</p>
+                        <p class="text-house"><b>Hipólito Yrigoyen al 2900</b></p>
+                      </div>
+                    </div>
+                    <!-- house -->
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="house">
+                        <img class="img-house-sold" src="/imgs/imagenes/imagen-1.png" alt="">
+                        <div class="mid d-flex">
+                          <p class="data-1">180m<sup>2</sup><i class="fa-solid fa-house"></i></p>
+                          <p class="data-2">2<i class="fa-solid fa-bed"></i></p>
+                          </div>
+                        <p class="text-house">Casa en venta en Florida Mitre/este, Florida</p>
+                        <p class="text-house"><b>Hipólito Yrigoyen al 2900</b></p>
+                      </div>
+                    </div>
+                    <!-- House -->
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="house">
+                        <img class="img-house-sold" src="/imgs/imagenes/imagen-1.png" alt="">
+                        <div class="mid d-flex">
+                          <p class="data-1">180m<sup>2</sup><i class="fa-solid fa-house"></i></p>
+                          <p class="data-2">2<i class="fa-solid fa-bed"></i></p>
+                          </div>
+                        <p class="text-house">Casa en venta en Florida Mitre/este, Florida</p>
+                        <p class="text-house"><b>Hipólito Yrigoyen al 2900</b></p>
+                      </div>
+                    </div>
+                    <!-- House -->
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="house">
+                        <img class="img-house-sold" src="/imgs/imagenes/imagen-1.png" alt="">
+                        <div class="mid d-flex">
+                          <p class="data-1">180m<sup>2</sup><i class="fa-solid fa-house"></i></p>
+                          <p class="data-2">2<i class="fa-solid fa-bed"></i></p>
+                          </div>
+                        <p class="text-house">Casa en venta en Florida Mitre/este, Florida</p>
+                        <p class="text-house"><b>Hipólito Yrigoyen al 2900</b></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </article>
+      
+      
+      </div>
+     </section>
+
+ <!-- Footer -->
+<%- include('./partials/footer') %>
+  </main>
+<script src="../js/script.js"></script>
+</body>
+</html>
